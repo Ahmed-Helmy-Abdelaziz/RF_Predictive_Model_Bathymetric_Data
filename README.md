@@ -1,11 +1,13 @@
 # RF_Predictive_Model_Bathymetric_Data
 
 **Riverbed Geomorphology Prediction and Analysis**
+
 This repository contains Python scripts developed for the analysis and prediction of riverbed geomorphological changes, specifically focused on hydrographic survey bathymetric data. These scripts are designed to handle data processing, predictive modeling, and surface difference analysis, providing a comprehensive toolkit for analyzing riverbed dynamics over time.
 
 This work was done in partial fullfilment of CEGE0049:Research Project module for UCL's MSc Geospatial Sciences (Hydrographic Surveying). 
 
 **Scripts Overview**
+
 This is a brief overview of the scripts, with full details commented in each of the scripts.
 
 **Data_Handling_ASCII_XYZ.py**
@@ -23,15 +25,19 @@ This script performs a detailed analysis of the differences between predicted an
 **Usage**
 
 **Data Preparation**
+
 Start by running the Data_Handling_ASCII_XYZ.py script to process your raw survey data. This will prepare the data for predictive modeling by cleaning and interpolating it into a consistent format.
 
 **Predictive Modeling**
+
 Use the RF_Predictive_Model.py script to train the Random Forest model on your prepared data. This script will generate predictions for future riverbed elevations based on historical patterns.
 
 **Surface Difference Analysis**
+
 After generating predictions, run the Surface_Difference_Analysis.py script to compare the predicted surfaces with actual measurements. This will help you assess the accuracy of your model and identify areas where the predictions deviate from reality.
 
 **Python Package Requirements**
+
 Python 3.x
 pandas
 numpy
@@ -41,6 +47,7 @@ scipy
 Make sure to install the required packages before running the scripts.
 
 **Data Requirements**
+
 1- Processed and cleaned historical XYZ surfaces for a designated survey area boundary (Survey grids should be copied to "Raw_xyz" folder in the project directory as per current setting)
 2- ASCII Border file for the survey boundary (To be placed in project folder by the name "border.brd" as per current settings)
 3- At least 3 epochs of survey grids are required to calculate training features for the current RF predictive model, otherwise remove Quarter number with insufficient data.
