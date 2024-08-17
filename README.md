@@ -49,6 +49,9 @@ Make sure to install the required packages before running the scripts.
 **Data Requirements**
 
 1- Processed and cleaned historical XYZ surfaces for a designated survey area boundary (Survey grids should be copied to "Raw_xyz" folder in the project directory as per current setting)
+
 2- ASCII Border file for the survey boundary (To be placed in project folder by the name "border.brd" as per current settings)
+
 3- At least 3 epochs of survey grids are required to calculate training features for the current RF predictive model, otherwise remove Quarter number with insufficient data.
+
 4- If the actual measured datasets for the set predicted future years XYZ grids are available, surface difference analysis script can be run to evaluate the model predictive performance visually and statistically
