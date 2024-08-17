@@ -39,11 +39,17 @@ After generating predictions, run the Surface_Difference_Analysis.py script to c
 **Python Package Requirements**
 
 Python 3.x
+
 pandas
+
 numpy
+
 scikit-learn
+
 matplotlib
+
 scipy
+
 Make sure to install the required packages before running the scripts.
 
 **Data Requirements**
