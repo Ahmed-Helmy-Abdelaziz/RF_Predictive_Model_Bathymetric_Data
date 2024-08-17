@@ -6,7 +6,7 @@ This repository contains Python scripts developed for the analysis and predictio
 This work was done in partial fullfilment of CEGE0049:Research Project module for UCL's MSc Geospatial Sciences (Hydrographic Surveying). 
 
 **Scripts Overview**
-
+This is a brief overview of the scripts, with full details commented in each of the scripts.
 
 **Data_Handling_ASCII_XYZ.py**
 
@@ -16,7 +16,8 @@ This script is responsible for preparing and processing bathymetric data in ASCI
 
 This script implements a Random Forest predictive model to forecast future riverbed elevations. It handles the training of the model, feature extraction, and sequential prediction of future surfaces based on historical data. The script is designed to manage large datasets and produce reliable predictions with minimal overfitting.
 
-Surface_Difference_Analysis.py
+**Surface_Difference_Analysis.py**
+
 This script performs a detailed analysis of the differences between predicted and actual riverbed surfaces. It calculates key metrics such as Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and Total Volume Difference, providing insights into the model's accuracy and highlighting areas of significant deviation.
 
 **Usage**
